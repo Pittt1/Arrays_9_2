@@ -7,7 +7,7 @@ console.log(bothArrays);
 var newWoman = 'Barrbara';
 
 if ( bothArrays.indexOf(newWoman) === -1 ) {
-	var newArray = bothArrays.push('Barrbara');
+	var newArray = bothArrays.push(newWoman);
 };
 
 console.log(newArray);
